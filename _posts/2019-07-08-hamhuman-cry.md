@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
+title: "Hamhuman cry."
 date: 2019-07-08
 ---
 awwwwwwwwwwww, hamhuman.
