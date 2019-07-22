@@ -1,3 +1,5 @@
 name: epu baal, harmcorp org.
 markdown: kramdown
 permalink: /log/:year/:month/:day/:title
+
+theme: jekyll-theme-minimal
