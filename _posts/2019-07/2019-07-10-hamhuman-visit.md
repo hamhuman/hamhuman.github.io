@@ -2,6 +2,7 @@
 layout: post
 title: "Hamhuman first visit"
 date: 2019-07-10
+tags: test
 ---
 
 # hanmuamn finally visit
@@ -14,4 +15,3 @@ public static void main(Stirng[] args) {
 }
 ```
 > this is quota
-

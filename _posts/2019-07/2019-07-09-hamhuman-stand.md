@@ -2,6 +2,7 @@
 layout: post
 title: "Hamhuman can't walk."
 date: 2019-07-09
+tags: test
 ---
 Because he is a hamhuman.
 # i want h1
