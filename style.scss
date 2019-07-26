@@ -1,5 +1,8 @@
 ---
 ---
+/* Jekyll 에서 Sass 를 지원하는 방식
+https://jekyllrb-ko.github.io/docs/assets/
+*/
 
 //
 // IMPORTS
@@ -19,7 +22,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 16px/1.4 $gitbookFont;
   color: $darkGray;
 }
 
@@ -108,6 +111,30 @@ strong, b {
 
 img {
   max-width: 100%;
+}
+
+//copy from pure css - https://purecss.io/
+.pure-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 1px solid #cbcbcb;
+  thead {
+    background-color: #e0e0e0;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom;
+  }
+  th, td {
+    padding: 0.5em 1em;
+    border-left: 1px solid #cbcbcb;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+  }
+  td {
+    background-color: transparent;
+  }
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -252,12 +279,16 @@ nav {
 }
 
 .post {
+  .posthead {
+    border-bottom: 1px solid #eee;
+  }
   blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
+    margin: 0px 0px 24px;
+    border-left: 4px solid $gitbookLightGray;
+    padding: 0px 0px 0px 12px;
+    color: $gitbookGray;
+    font-size: 16px;
+    font-weight: 400;
     font-style: italic;
   }
 
@@ -287,3 +318,4 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+@import "tags"
